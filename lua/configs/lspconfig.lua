@@ -10,7 +10,6 @@ lspconfig.servers = {
   "eslint-lsp",
   "gopls",
   "html-lsp",
-  "lua-language-server",
   "tailwindcss-language-server",
   "typescript-language-server",
 }
