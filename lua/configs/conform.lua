@@ -3,13 +3,7 @@ local options = {
     lua = { "stylua" },
     -- css = { "prettier" },
     -- html = { "prettier" },
-    go = { "gofumpt", "goimports-reviser" },
-  },
-
-  formatters = {
-    ["goimports-reviser"] = {
-      prepend_args = { "-rm-unused" },
-    },
+    go = { "gofumpt" },
   },
 
   format_on_save = {
